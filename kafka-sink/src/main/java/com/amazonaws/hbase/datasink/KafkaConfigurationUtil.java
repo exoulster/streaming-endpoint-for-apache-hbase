@@ -33,7 +33,7 @@ public class KafkaConfigurationUtil extends ConfigurationUtil {
 	public static final String REPLICATION_KAFKA_TOPIC_TABLE_MAP = 
 			REPLICATION_KAFKA+".topic-table-map";
 	
-	public static final String TABLE_MAP_DELIMITER = ":";
+	public static final String TABLE_MAP_DELIMITER = "=";
 	
 	public static final String KAFKA_BOOTSTRAP_SERVERS = 
 			REPLICATION_KAFKA+".bootstrap.servers";
